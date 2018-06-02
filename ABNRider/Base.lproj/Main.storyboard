@@ -44,7 +44,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Destination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="op7-DI-HI7">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Destination" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="op7-DI-HI7">
                                         <rect key="frame" x="25" y="54" width="325" height="24"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -194,6 +194,8 @@
                     </view>
                     <connections>
                         <outlet property="centerMapBtn" destination="Kj8-ea-xSs" id="ZTz-lh-qZN"/>
+                        <outlet property="destCircle" destination="NEC-1J-wxZ" id="5pK-vc-IL8"/>
+                        <outlet property="destTF" destination="op7-DI-HI7" id="Tsh-pi-LSF"/>
                         <outlet property="mapView" destination="M8l-pc-K52" id="qdm-UQ-DbM"/>
                     </connections>
                 </viewController>

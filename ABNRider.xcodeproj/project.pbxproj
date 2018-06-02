@@ -26,6 +26,7 @@
 		5BF7927C20C1B6B1005A6E09 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927B20C1B6B1005A6E09 /* DataService.swift */; };
 		5BF7927F20C24B34005A6E09 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927E20C24B34005A6E09 /* UpdateService.swift */; };
 		5BF7928120C25268005A6E09 /* DriverAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7928020C25268005A6E09 /* DriverAnnotaion.swift */; };
+		5BF7928320C29E1B005A6E09 /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7928220C29E1B005A6E09 /* PassengerAnnotation.swift */; };
 		EE287FADCA094CD03FC0816D /* Pods_ABNRider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592D280ECF88D8FC77131AD9 /* Pods_ABNRider.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		5BF7927B20C1B6B1005A6E09 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5BF7927E20C24B34005A6E09 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		5BF7928020C25268005A6E09 /* DriverAnnotaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotaion.swift; sourceTree = "<group>"; };
+		5BF7928220C29E1B005A6E09 /* PassengerAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				5BF7928020C25268005A6E09 /* DriverAnnotaion.swift */,
+				5BF7928220C29E1B005A6E09 /* PassengerAnnotation.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				5BF7927420C190B0005A6E09 /* UIView+Extensions.swift in Sources */,
 				5BF7927A20C1978E005A6E09 /* RoundedCornerTF.swift in Sources */,
 				5BF7927F20C24B34005A6E09 /* UpdateService.swift in Sources */,
+				5BF7928320C29E1B005A6E09 /* PassengerAnnotation.swift in Sources */,
 				5BF7926820C12184005A6E09 /* RoundImgView.swift in Sources */,
 				5BA45B9E20BDD55D00656472 /* HomeVC.swift in Sources */,
 				5BF7926A20C12240005A6E09 /* RoundedShadowView.swift in Sources */,
