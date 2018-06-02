@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>we want to follow you</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We want follow you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>I will follow you</string>
 </dict>
 </plist>

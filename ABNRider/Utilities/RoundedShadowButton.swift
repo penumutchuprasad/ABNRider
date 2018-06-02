@@ -26,7 +26,6 @@ class RoundedShadowButton: UIButton {
         self.layer.shadowOpacity = 0.3
         self.layer.shadowOffset = CGSize.zero
         self.layer.shadowColor = UIColor.gray.cgColor
-        
     }
     
     func animateButton(shouldLoad: Bool, withMessage msg: String?) {
@@ -52,9 +51,12 @@ class RoundedShadowButton: UIButton {
                 if finished {
                     spinner.startAnimating()
                     spinner.center = CGPoint(x: self.frame.width/2, y: self.frame.width/2)
-                    UIView.animate(withDuration: 0.2, animations: {
-                        spinner.alpha = 1.0
-                    })
+                   
+                    spinner.fadeTo(alphaValue: 1.0, withDuration: 0.2) // Replacing bottom lines of code
+                    
+//                    UIView.animate(withDuration: 0.2, animations: {
+//                        spinner.alpha = 1.0
+//                    })
                 }
             }
             self.isUserInteractionEnabled = false
@@ -76,11 +78,8 @@ class RoundedShadowButton: UIButton {
                 
             }
 
-
         }
         
     }
-    
-    
     
 }

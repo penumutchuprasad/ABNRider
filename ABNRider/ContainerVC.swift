@@ -35,7 +35,7 @@ class ContainerVC: UIViewController {
     var leftVC: LeftPanelVC!
     
     var isHidden: Bool = false
-    let centerPanelExpandedOffset: CGFloat = 175
+    let centerPanelExpandedOffset: CGFloat = 100
     
     var centerVC: UIViewController!
     

@@ -27,13 +27,10 @@ class CircularView: UIView {
         
     }
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         setupViews()
     }
-    
     
     func setupViews() {
         self.layer.borderWidth = self.borderWidth
@@ -41,6 +38,5 @@ class CircularView: UIView {
         self.layer.cornerRadius = self.frame.width / 2
         self.clipsToBounds = true
     }
-    
     
 }

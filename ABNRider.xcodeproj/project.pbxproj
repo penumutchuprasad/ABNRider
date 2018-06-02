@@ -14,12 +14,18 @@
 		5BA45BA620BDD55E00656472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA45BA420BDD55E00656472 /* LaunchScreen.storyboard */; };
 		5BA45BAE20BDD7AE00656472 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BA45BAD20BDD7AE00656472 /* GoogleService-Info.plist */; };
 		5BF7926620C11E89005A6E09 /* UIGradientVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926520C11E89005A6E09 /* UIGradientVIew.swift */; };
-		5BF7926820C12184005A6E09 /* RoungImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926720C12184005A6E09 /* RoungImgView.swift */; };
+		5BF7926820C12184005A6E09 /* RoundImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926720C12184005A6E09 /* RoundImgView.swift */; };
 		5BF7926A20C12240005A6E09 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926920C12240005A6E09 /* RoundedShadowView.swift */; };
 		5BF7926C20C12348005A6E09 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926B20C12348005A6E09 /* CircularView.swift */; };
 		5BF7926E20C125D3005A6E09 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926D20C125D3005A6E09 /* RoundedShadowButton.swift */; };
 		5BF7927020C12C90005A6E09 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7926F20C12C90005A6E09 /* ContainerVC.swift */; };
 		5BF7927220C12D86005A6E09 /* LeftPanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927120C12D86005A6E09 /* LeftPanelVC.swift */; };
+		5BF7927420C190B0005A6E09 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927320C190B0005A6E09 /* UIView+Extensions.swift */; };
+		5BF7927620C196BD005A6E09 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927520C196BD005A6E09 /* LoginVC.swift */; };
+		5BF7927A20C1978E005A6E09 /* RoundedCornerTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927920C1978E005A6E09 /* RoundedCornerTF.swift */; };
+		5BF7927C20C1B6B1005A6E09 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927B20C1B6B1005A6E09 /* DataService.swift */; };
+		5BF7927F20C24B34005A6E09 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7927E20C24B34005A6E09 /* UpdateService.swift */; };
+		5BF7928120C25268005A6E09 /* DriverAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7928020C25268005A6E09 /* DriverAnnotaion.swift */; };
 		EE287FADCA094CD03FC0816D /* Pods_ABNRider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592D280ECF88D8FC77131AD9 /* Pods_ABNRider.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,12 +42,18 @@
 		5BA45BA720BDD55E00656472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA45BAD20BDD7AE00656472 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5BF7926520C11E89005A6E09 /* UIGradientVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientVIew.swift; sourceTree = "<group>"; };
-		5BF7926720C12184005A6E09 /* RoungImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoungImgView.swift; sourceTree = "<group>"; };
+		5BF7926720C12184005A6E09 /* RoundImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImgView.swift; sourceTree = "<group>"; };
 		5BF7926920C12240005A6E09 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		5BF7926B20C12348005A6E09 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 		5BF7926D20C125D3005A6E09 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		5BF7926F20C12C90005A6E09 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		5BF7927120C12D86005A6E09 /* LeftPanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPanelVC.swift; sourceTree = "<group>"; };
+		5BF7927320C190B0005A6E09 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		5BF7927520C196BD005A6E09 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5BF7927920C1978E005A6E09 /* RoundedCornerTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTF.swift; sourceTree = "<group>"; };
+		5BF7927B20C1B6B1005A6E09 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5BF7927E20C24B34005A6E09 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		5BF7928020C25268005A6E09 /* DriverAnnotaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotaion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +105,6 @@
 				5BF7926220C11E68005A6E09 /* View */,
 				5BF7926120C11E60005A6E09 /* Controller */,
 				5BA45B9B20BDD55D00656472 /* AppDelegate.swift */,
-				5BA45B9D20BDD55D00656472 /* HomeVC.swift */,
 				5BA45B9F20BDD55D00656472 /* Main.storyboard */,
 				5BA45BA220BDD55E00656472 /* Assets.xcassets */,
 				5BA45BA420BDD55E00656472 /* LaunchScreen.storyboard */,
@@ -106,6 +117,8 @@
 		5BF7926120C11E60005A6E09 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5BA45B9D20BDD55D00656472 /* HomeVC.swift */,
+				5BF7927520C196BD005A6E09 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,6 +126,7 @@
 		5BF7926220C11E68005A6E09 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5BF7928020C25268005A6E09 /* DriverAnnotaion.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,6 +134,7 @@
 		5BF7926320C11E6E005A6E09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BF7927D20C1B729005A6E09 /* Services */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,12 +143,23 @@
 			isa = PBXGroup;
 			children = (
 				5BF7926520C11E89005A6E09 /* UIGradientVIew.swift */,
-				5BF7926720C12184005A6E09 /* RoungImgView.swift */,
+				5BF7926720C12184005A6E09 /* RoundImgView.swift */,
 				5BF7926920C12240005A6E09 /* RoundedShadowView.swift */,
 				5BF7926B20C12348005A6E09 /* CircularView.swift */,
 				5BF7926D20C125D3005A6E09 /* RoundedShadowButton.swift */,
+				5BF7927320C190B0005A6E09 /* UIView+Extensions.swift */,
+				5BF7927920C1978E005A6E09 /* RoundedCornerTF.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5BF7927D20C1B729005A6E09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5BF7927B20C1B6B1005A6E09 /* DataService.swift */,
+				5BF7927E20C24B34005A6E09 /* UpdateService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6553CEF77FFF7DEC7C8CFD18 /* Frameworks */ = {
@@ -263,12 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF7927620C196BD005A6E09 /* LoginVC.swift in Sources */,
+				5BF7927C20C1B6B1005A6E09 /* DataService.swift in Sources */,
 				5BF7927020C12C90005A6E09 /* ContainerVC.swift in Sources */,
 				5BF7926E20C125D3005A6E09 /* RoundedShadowButton.swift in Sources */,
-				5BF7926820C12184005A6E09 /* RoungImgView.swift in Sources */,
+				5BF7927420C190B0005A6E09 /* UIView+Extensions.swift in Sources */,
+				5BF7927A20C1978E005A6E09 /* RoundedCornerTF.swift in Sources */,
+				5BF7927F20C24B34005A6E09 /* UpdateService.swift in Sources */,
+				5BF7926820C12184005A6E09 /* RoundImgView.swift in Sources */,
 				5BA45B9E20BDD55D00656472 /* HomeVC.swift in Sources */,
 				5BF7926A20C12240005A6E09 /* RoundedShadowView.swift in Sources */,
 				5BF7927220C12D86005A6E09 /* LeftPanelVC.swift in Sources */,
+				5BF7928120C25268005A6E09 /* DriverAnnotaion.swift in Sources */,
 				5BF7926C20C12348005A6E09 /* CircularView.swift in Sources */,
 				5BF7926620C11E89005A6E09 /* UIGradientVIew.swift in Sources */,
 				5BA45B9C20BDD55D00656472 /* AppDelegate.swift in Sources */,
